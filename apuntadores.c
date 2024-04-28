@@ -1,10 +1,10 @@
-//tipo de dato * identificador del apuntador
-//referenciacion &x
 #include <stdio.h>
 int main(){
-    int a = 20;
-    printf("El valor de a es: %d\n", a);
-    printf("La direccion de memroia es: %p\n",&a);
+int x,y;
+printf("Valor x : %d", x);
+int *p;
 
-    return 0;
+p = &x;
+y = *p+3;
+printf("El valor de y es %d", y);
 }
