@@ -1,10 +1,19 @@
 #include <stdio.h>
+void intercambio(int *a, int *b);
 int main(){
-int x,y;
-printf("Valor x : %d", x);
-int *p;
+    int x=2;
+    int y=5;
 
-p = &x;
-y = *p+3;
-printf("El valor de y es %d", y);
+    printf("Antes x= %d, y=%d \n", x, y);
+
+    intercambio(&x,&y);
+
+    printf("DEspues x=%d, y=%d \n", x, y);
+    
+}
+void intercambio(int *a, int *b){
+    int temp;
+    temp=*b;
+    *b=*a;
+    *a=temp;    
 }
