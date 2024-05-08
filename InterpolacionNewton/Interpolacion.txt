@@ -1,0 +1,1 @@
+En esta carpeta se encontrara el proceso de la creacion de la Teoria de Interpolacion de Newton con intentos y fracasos
