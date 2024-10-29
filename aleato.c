@@ -16,5 +16,5 @@ int main(){
     printf("Random String %s\n",buffer);
     free(buffer);
 
-    return 0;
+    return 0; 
 }
